@@ -1,0 +1,6 @@
+site_name: Mari's Tech Radar
+nav:
+    - Home: index.md
+    - About: about.md
+theme:
+  name: material
