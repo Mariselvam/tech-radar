@@ -1,6 +1,7 @@
 site_name: Mari's Tech Radar
 nav:
-    - Home: index.md
-    - About: about.md
+    - All about REST APIs: index.md
+    - Learnings from Spring boot: about.md
+    - Learnings from Java : Java
 theme:
   name: material
