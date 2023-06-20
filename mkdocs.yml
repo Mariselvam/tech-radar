@@ -1,7 +1,7 @@
 site_name: Mari's Tech Radar
 nav:
-    - All about REST APIs: index.md
-    - Learnings from Spring boot: about.md
-    - Learnings from Java : Java
+    - All about REST APIs: all-about-rest-apis.md
+    - Learnings from Spring boot: learnings-spring-boot.md
+    - Learnings from Java : learnings-java.md
 theme:
   name: material
