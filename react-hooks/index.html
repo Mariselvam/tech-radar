@@ -10,14 +10,12 @@
       
       
       
-        <link rel="next" href="../learnings-spring-boot/">
-      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
     
     
       
-        <title>All about REST APIs - Mari's Tech Radar</title>
+        <title>React hooks - Mari's Tech Radar</title>
       
     
     
@@ -59,7 +57,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#this-section-shares-all-my-learnings-about-the-development-and-maintenance-aspects-of-restful-apis" class="md-skip">
+        <a href="#usestate-hooks" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              All about REST APIs
+              React hooks
             
           </span>
         </div>
@@ -178,21 +176,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../all-about-rest-apis/" class="md-nav__link">
         All about REST APIs
       </a>
-      
     </li>
   
 
@@ -259,8 +247,28 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#usestate-hooks" class="md-nav__link">
+    useState hooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useeffect-hooks" class="md-nav__link">
+    useEffect hooks
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -275,9 +283,28 @@
                   
 
 
-<h1 id="this-section-shares-all-my-learnings-about-the-development-and-maintenance-aspects-of-restful-apis">This section shares all my learnings about the development and maintenance aspects of RESTful APIs</h1>
-<p><a href="../important-aspects-develop-rest-apis/">1. Important aspects of developing great REST APIs</a></p>
-<p><a href="../appropriate-http-verbs/">2. Using Appropriate Http verb for designing RESTful APIs</a></p>
+  <h1>React hooks</h1>
+
+<h3 id="usestate-hooks">useState hooks</h3>
+<ol>
+<li>
+<p>it can be used only within functional component</p>
+</li>
+<li>
+<p>useState hooks inside a functional component must be executed in the same order</p>
+</li>
+<li>
+<p>useState hook can't be called inside a if condition</p>
+</li>
+<li>
+<p>when using an object as the state value, every time you call setState call will override the previous object .
+( this is not the case with functional components )</p>
+</li>
+<li>
+<p>using multiple useState hooks with single values is recommended approach.</p>
+</li>
+</ol>
+<h3 id="useeffect-hooks">useEffect hooks</h3>
 
 
 
