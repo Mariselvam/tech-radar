@@ -10,7 +10,7 @@ This is about identifying what are all the actions the consumers can perform on 
 ## 3. Defining Request and Response structures
 
 ### 3.1 Defining Request Structure includes:
-1. defining http verb
+1. [defining http verb](./appropriate-http-verbs.md)
 2. defining request body
 3. defining requests parameters if any
 4. defining request headers if any
