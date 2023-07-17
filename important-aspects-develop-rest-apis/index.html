@@ -257,37 +257,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#identifying-resources" class="md-nav__link">
-    Identifying Resources
+  <a href="#1-identifying-resources" class="md-nav__link">
+    1. Identifying Resources
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifying-actions-get-post-put-delete" class="md-nav__link">
-    Identifying Actions (GET, POST, PUT, DELETE, ...)
+  <a href="#2-identifying-actions-get-post-put-delete" class="md-nav__link">
+    2. Identifying Actions (GET, POST, PUT, DELETE, ...)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#defining-request-and-response-structures" class="md-nav__link">
-    Defining Request and Response structures
+  <a href="#3-defining-request-and-response-structures" class="md-nav__link">
+    3. Defining Request and Response structures
   </a>
   
-    <nav class="md-nav" aria-label="Defining Request and Response structures">
+    <nav class="md-nav" aria-label="3. Defining Request and Response structures">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#defining-request-structure-includes" class="md-nav__link">
-    Defining Request Structure includes:
+  <a href="#31-defining-request-structure-includes" class="md-nav__link">
+    3.1 Defining Request Structure includes:
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#defining-response-structure-includes" class="md-nav__link">
-    Defining Response Structure includes:
+  <a href="#32-defining-response-structure-includes" class="md-nav__link">
+    3.2 Defining Response Structure includes:
   </a>
   
 </li>
@@ -298,58 +298,58 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#using-appropriate-response-status-code" class="md-nav__link">
-    Using appropriate Response Status code
+  <a href="#4-using-appropriate-response-status-code" class="md-nav__link">
+    4. Using appropriate Response Status code
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#validation" class="md-nav__link">
-    Validation
+  <a href="#5-validation" class="md-nav__link">
+    5. Validation
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#internationalization-i18n" class="md-nav__link">
-    Internationalization - i18n
+  <a href="#6-internationalization-i18n" class="md-nav__link">
+    6. Internationalization - i18n
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exception-handling" class="md-nav__link">
-    Exception Handling
+  <a href="#7-exception-handling" class="md-nav__link">
+    7. Exception Handling
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#hateoas" class="md-nav__link">
-    HATEOAS
+  <a href="#8-hateoas" class="md-nav__link">
+    8. HATEOAS
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#versioning" class="md-nav__link">
-    Versioning
+  <a href="#9-versioning" class="md-nav__link">
+    9. Versioning
   </a>
   
-    <nav class="md-nav" aria-label="Versioning">
+    <nav class="md-nav" aria-label="9. Versioning">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#different-approaches-for-implantation" class="md-nav__link">
-    Different approaches for implantation
+  <a href="#91-different-approaches-for-implantation" class="md-nav__link">
+    9.1 Different approaches for implantation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#factors-to-be-considered-while-deciding-the-approach-for-versioning-implementation" class="md-nav__link">
-    Factors to be considered while deciding the approach for versioning implementation:
+  <a href="#92-factors-to-be-considered-while-deciding-the-approach-for-versioning-implementation" class="md-nav__link">
+    9.2 Factors to be considered while deciding the approach for versioning implementation:
   </a>
   
 </li>
@@ -360,23 +360,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#response-content-filtering" class="md-nav__link">
-    Response Content Filtering
+  <a href="#10-response-content-filtering" class="md-nav__link">
+    10. Response Content Filtering
   </a>
   
-    <nav class="md-nav" aria-label="Response Content Filtering">
+    <nav class="md-nav" aria-label="10. Response Content Filtering">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#static-filtering" class="md-nav__link">
-    Static Filtering
+  <a href="#101-static-filtering" class="md-nav__link">
+    10.1 Static Filtering
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#dynamic-filtering" class="md-nav__link">
-    Dynamic Filtering
+  <a href="#102-dynamic-filtering" class="md-nav__link">
+    10.2 Dynamic Filtering
   </a>
   
 </li>
@@ -387,15 +387,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#monitoring" class="md-nav__link">
-    Monitoring
+  <a href="#11-monitoring" class="md-nav__link">
+    11. Monitoring
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
-    Documentation
+  <a href="#12-documentation" class="md-nav__link">
+    12. Documentation
   </a>
   
 </li>
@@ -416,36 +416,48 @@
 
 
 <h1 id="the-important-aspects-of-developing-great-rest-apis">The important aspects of developing great REST APIs</h1>
-<h2 id="identifying-resources">Identifying Resources</h2>
+<h2 id="1-identifying-resources">1. Identifying Resources</h2>
 <p>From the application domain model objects, identify the objects/resources that need to be exposed through REST APIs for users to perform actions on those resources.</p>
-<h2 id="identifying-actions-get-post-put-delete">Identifying Actions (GET, POST, PUT, DELETE, ...)</h2>
+<h2 id="2-identifying-actions-get-post-put-delete">2. Identifying Actions (GET, POST, PUT, DELETE, ...)</h2>
 <p>This is about identifying what are all the actions the consumers can perform on the exposed REST resources.</p>
-<h2 id="defining-request-and-response-structures">Defining Request and Response structures</h2>
-<h3 id="defining-request-structure-includes">Defining Request Structure includes:</h3>
-<pre><code>    1 defining http verb
-    2. defining request body
-    3. defining requests parameters if any
-    4. defining request headers if any
-</code></pre>
-<h3 id="defining-response-structure-includes">Defining Response Structure includes:</h3>
-<pre><code>    1. defining response status code
-    2. defining response body
-    3. defining response headers
-</code></pre>
-<h2 id="using-appropriate-response-status-code">Using appropriate Response Status code</h2>
-<pre><code>Appropriate http response status codes need to be returned based on the action on the resource and use case scenario.
-</code></pre>
-<h2 id="validation">Validation</h2>
-<pre><code>This is about adding validations to the request body, parameters and headers.
-</code></pre>
-<h2 id="internationalization-i18n">Internationalization - i18n</h2>
-<pre><code>If the consumers for the REST API are all over the world, then adding support for different languages is required.
-</code></pre>
-<h2 id="exception-handling">Exception Handling</h2>
-<pre><code>It's important to handle error scenarios and return appropriate error codes and error messages in the response.
-This will help the consumers of the REST APIs to decide on their side business logic in case of error scenarios.
-</code></pre>
-<h2 id="hateoas">HATEOAS</h2>
+<h2 id="3-defining-request-and-response-structures">3. Defining Request and Response structures</h2>
+<h3 id="31-defining-request-structure-includes">3.1 Defining Request Structure includes:</h3>
+<ol>
+<li>
+<p>defining http verb</p>
+</li>
+<li>
+<p>defining request body</p>
+</li>
+<li>
+<p>defining requests parameters if any</p>
+</li>
+<li>
+<p>defining request headers if any</p>
+</li>
+</ol>
+<h3 id="32-defining-response-structure-includes">3.2 Defining Response Structure includes:</h3>
+<ol>
+<li>
+<p>defining response status code</p>
+</li>
+<li>
+<p>defining response body</p>
+</li>
+<li>
+<p>defining response headers</p>
+</li>
+</ol>
+<h2 id="4-using-appropriate-response-status-code">4. Using appropriate Response Status code</h2>
+<p>Appropriate http response status codes need to be returned based on the action on the resource and use case scenario.</p>
+<h2 id="5-validation">5. Validation</h2>
+<p>This is about adding validations to the request body, parameters and headers.</p>
+<h2 id="6-internationalization-i18n">6. Internationalization - i18n</h2>
+<p>If the consumers for the REST API are all over the world, then adding support for different languages is required.</p>
+<h2 id="7-exception-handling">7. Exception Handling</h2>
+<p>It's important to handle error scenarios and return appropriate error codes and error messages in the response.
+This will help the consumers of the REST APIs to decide on their side business logic in case of error scenarios.</p>
+<h2 id="8-hateoas">8. HATEOAS</h2>
 <p><em>HATEOAS</em> - <strong>Hypermedia As The Engine Of Application State</strong></p>
 <ul>
 <li>
@@ -458,37 +470,32 @@ This will help the consumers of the REST APIs to decide on their side business l
 <p>HAL - Simple format that gives a consistent and easy way to hyperlink between resources in your API</p>
 </li>
 </ul>
-<h2 id="versioning">Versioning</h2>
-<pre><code>    Versioning is important because, it will allow to implement changes in the REST APIs without breaking existing consumers code.
-</code></pre>
-<h3 id="different-approaches-for-implantation">Different approaches for implantation</h3>
-<pre><code>    1. URI path based versioning
-    2. Request parameters based versioning
-    3. Custom headers based versioning
-    4. Content Negotiation based versioning
-</code></pre>
-<h3 id="factors-to-be-considered-while-deciding-the-approach-for-versioning-implementation">Factors to be considered while deciding the approach for versioning implementation:</h3>
-<pre><code>    1. URI Pollution
-    2. Misuse of HTTP Headers
-    3. Caching
-    4. Can we execute the request on the browser?
-    5. API Documentation
-</code></pre>
-<h2 id="response-content-filtering">Response Content Filtering</h2>
-<h3 id="static-filtering">Static Filtering</h3>
-<pre><code>This about filtering contents in the response body of REST APIs.
-
-1) password fields can't be included in the response body.
-
-2) secret values can't be included in the response body
-
-3) Related domain objects need not to be included in response body.
-
-4) Static filter is about implementing common filtering for all the APIs.
-
-5) Static filtering is usually implemented in domain object classes
-</code></pre>
-<h3 id="dynamic-filtering">Dynamic Filtering</h3>
+<h2 id="9-versioning">9. Versioning</h2>
+<p>Versioning is important because, it will allow to implement changes in the REST APIs without breaking existing consumers code.</p>
+<h3 id="91-different-approaches-for-implantation">9.1 Different approaches for implantation</h3>
+<ol>
+<li>URI path based versioning</li>
+<li>Request parameters based versioning</li>
+<li>Custom headers based versioning</li>
+<li>Content Negotiation based versioning</li>
+</ol>
+<h3 id="92-factors-to-be-considered-while-deciding-the-approach-for-versioning-implementation">9.2 Factors to be considered while deciding the approach for versioning implementation:</h3>
+<ol>
+<li>URI Pollution</li>
+<li>Misuse of HTTP Headers</li>
+<li>Caching</li>
+<li>Can we execute the request on the browser?</li>
+<li>API Documentation</li>
+</ol>
+<h2 id="10-response-content-filtering">10. Response Content Filtering</h2>
+<h3 id="101-static-filtering">10.1 Static Filtering</h3>
+<p>This about filtering contents in the response body of REST APIs.</p>
+<p>1) password fields can't be included in the response body.</p>
+<p>2) secret values can't be included in the response body</p>
+<p>3) Related domain objects need not to be included in response body.</p>
+<p>4) Static filter is about implementing common filtering for all the APIs.</p>
+<p>5) Static filtering is usually implemented in domain object classes</p>
+<h3 id="102-dynamic-filtering">10.2 Dynamic Filtering</h3>
 <ol>
 <li>
 <p>Dynamic filtering is all about implementing specific filtering for each REST API.</p>
@@ -497,16 +504,18 @@ This will help the consumers of the REST APIs to decide on their side business l
 <p>Dynamic filtering is usually implemented in controllers.</p>
 </li>
 </ol>
-<h2 id="monitoring">Monitoring</h2>
+<h2 id="11-monitoring">11. Monitoring</h2>
 <p>Monitoring capability is needed in production environment.</p>
 <p>This should include:
-Application overall health status
-Metrics on handled http requests
-Metrics on runtime environment</p>
-<h2 id="documentation">Documentation</h2>
-<p>Clear documentation is important for the consumers of REST APIs
-Generating accurate and consistent documentation for the REST API urls
-Generating from code is the answer to make the documentation accurate and consistent.</p>
+- Application overall health status
+- Metrics on handled http requests
+- Metrics on runtime environment</p>
+<h2 id="12-documentation">12. Documentation</h2>
+<ul>
+<li>Clear documentation is important for the consumers of REST APIs</li>
+<li>Generating accurate and consistent documentation for the REST API urls</li>
+<li>Generating from code is the answer to make the documentation accurate and consistent.</li>
+</ul>
 
 
 
