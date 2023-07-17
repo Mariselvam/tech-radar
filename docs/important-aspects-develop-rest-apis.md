@@ -11,18 +11,13 @@ This is about identifying what are all the actions the consumers can perform on 
 
 ### 3.1 Defining Request Structure includes:
 1. defining http verb
-
 2. defining request body
-
 3. defining requests parameters if any
-
 4. defining request headers if any
 
 ### 3.2 Defining Response Structure includes:
 1. defining response status code
-
 2. defining response body
-
 3. defining response headers
       
 ## 4. Using appropriate Response Status code
@@ -93,7 +88,6 @@ This should include:
 - Application overall health status
 - Metrics on handled http requests
 - Metrics on runtime environment
-
 
 ## 12. Documentation
 
